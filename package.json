@@ -1,0 +1,42 @@
+{
+  "name": "@ultraforce/ts-mui-lib",
+  "version": "1.0.0",
+  "description": "Typescript utility classes for use with MUI and React.",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "doc": "typedoc"
+  },
+  "files": [
+    "docs",
+    "dist",
+    "LICENSE.MD",
+    "README.md"
+  ],
+  "keywords": [
+    "typescript",
+    "utility"
+  ],
+  "repository": {
+    "url": "https://github.com/JoshaMunnik/ts-mui-lib",
+    "type": "git"
+  },
+  "typings": "./dist/index.d.ts",
+  "author": "Josha Munnik",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "jest": "^28.1.3",
+    "ts-jest": "^28.0.7",
+    "typedoc": "^0.23.28",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.15",
+    "@types/react": "^18.0.31",
+    "@ultraforce/ts-general-lib": "^1.0.5",
+    "@ultraforce/ts-react-lib": "^1.0.0",
+    "react": "^18.2.0"
+  }
+}
