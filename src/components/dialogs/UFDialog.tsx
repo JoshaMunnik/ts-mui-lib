@@ -16,7 +16,7 @@ export interface UFDialogProps extends DialogProps {
 }
 
 /**
- * {@link UFDialog} extends {@link Dialog} and adds support for modal/not-modal dialogs
+ * {@link UFDialog} extends `Dialog` and adds support for modal/not-modal dialogs
  */
 export const UFDialog: React.FC<UFDialogProps> = (
   {

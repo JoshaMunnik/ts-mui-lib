@@ -48,7 +48,7 @@ export type UFTextFieldProps = TextFieldProps & {
 };
 
 /**
- * {@link UFTextField} extends {@link TextField}.
+ * {@link UFTextField} extends `TextField`.
  */
 export const UFTextField = memo(
   (

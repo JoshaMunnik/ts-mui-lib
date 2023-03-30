@@ -48,7 +48,7 @@ export interface UFFormSwitchProps extends SwitchProps {
 }
 
 /**
- * {@link UFFormSwitch} combines {@link FormControlLabel} and {@link Switch} into a single component.
+ * {@link UFFormSwitch} combines `FormControlLabel` and `Switch` into a single component.
  */
 export const UFFormSwitch = memo(
   (

@@ -59,7 +59,7 @@ export type UFFormNumberSliderFieldProps = Omit<UFTextFieldProps, 'fullWidth'> &
 /**
  * State for {@link UFFormNumberTextField}
  */
-type UFFormNumberSliderFieldState = {
+export type UFFormNumberSliderFieldState = {
   readonly value: number;
   readonly valueAsText: string;
   readonly inputFocused: boolean;

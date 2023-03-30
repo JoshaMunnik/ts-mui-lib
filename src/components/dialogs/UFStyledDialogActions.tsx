@@ -9,7 +9,7 @@ import {UFChildrenProp} from "@ultraforce/ts-react-lib";
 // region component
 
 /**
- * Adds padding to {@link DialogActions}.
+ * Adds padding to `DialogActions`.
  */
 export const UFStyledDialogActions: React.FC<UFChildrenProp> = ({children}) => (
   <DialogActions

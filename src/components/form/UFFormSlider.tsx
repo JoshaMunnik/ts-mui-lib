@@ -34,7 +34,7 @@ export interface UFFormSliderFieldProps extends SliderProps {
 }
 
 /**
- * {@link UFFormSlider} wraps a {@link Slider} in a {@link FormControl} and adds a {@link InputLabel} above it.
+ * {@link UFFormSlider} wraps a `Slider` in a `FormControl` and adds a `InputLabel` above it.
  */
 export const UFFormSlider = memo(
   (

@@ -6,7 +6,8 @@
     "sourceMap": true,
     "outDir": "./dist",
     "moduleResolution": "Node",
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "skipLibCheck": true
   },
   "exclude": [
     "tests",

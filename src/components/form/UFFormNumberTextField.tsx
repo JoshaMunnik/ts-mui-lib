@@ -62,17 +62,17 @@ export type UFFormNumberTextFieldProps = UFTextFieldProps & {
 /**
  * State for {@link UFFormNumberTextField}
  */
-type UFFormTextFieldNumberState = {
+export type UFFormNumberTextFieldState = {
   readonly value: string;
   readonly focused: boolean;
 }
 
 /**
- * {@link UFFormNumberTextField} extends {@link UFFormTextField} to enter numeric values.
+ * {@link UFFormNumberTextField} extends {@link UFTextField} to enter numeric values.
  *
  * It uses "normal" as default value for margin and sets type to "number".
  */
-export class UFFormNumberTextField extends React.PureComponent<UFFormNumberTextFieldProps, UFFormTextFieldNumberState> {
+export class UFFormNumberTextField extends React.PureComponent<UFFormNumberTextFieldProps, UFFormNumberTextFieldState> {
   // region static variables
 
   /**
@@ -236,8 +236,8 @@ export class UFFormNumberTextField extends React.PureComponent<UFFormNumberTextF
    *   changes.
    */
   static getDerivedStateFromProps(
-    aNewProps: UFFormNumberTextFieldProps, aCurrentState: UFFormTextFieldNumberState
-  ): Partial<UFFormTextFieldNumberState> | null {
+    aNewProps: UFFormNumberTextFieldProps, aCurrentState: UFFormNumberTextFieldState
+  ): Partial<UFFormNumberTextFieldState> | null {
     // only update if input is not active, else let this component handle changes
     if ((aNewProps.value !== undefined) && !aCurrentState.focused) {
       return {

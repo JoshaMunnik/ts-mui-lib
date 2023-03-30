@@ -8,7 +8,7 @@ import {Slide, SlideProps} from "@mui/material";
 // region component
 
 /**
- * {@link UFSlideUp} creates a {@link Slide} component to slide upwards.
+ * {@link UFSlideUp} creates a `Slide` component to slide upwards.
  */
 export const UFSlideUp: React.FC<SlideProps> = props => <Slide {...props} direction="up" />;
 
