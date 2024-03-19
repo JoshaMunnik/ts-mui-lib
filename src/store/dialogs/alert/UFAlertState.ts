@@ -1,7 +1,7 @@
 // region imports
 
 import * as React from "react";
-import {UFButtonColorType} from "../../../types/UFButtonColorType";
+import {UFButtonColorType} from "../../../types/UFButtonColorType.js";
 
 // endregion
 

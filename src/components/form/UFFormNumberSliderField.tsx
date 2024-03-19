@@ -3,8 +3,8 @@
 import * as React from 'react'
 import Typography from "@mui/material/Typography";
 import {FormControl, InputLabel, Slider, Stack, TextField} from "@mui/material";
-import {UFTextFieldProps} from "./UFTextField";
-import {UFText} from "@ultraforce/ts-general-lib/dist/tools/UFText";
+import {UFTextFieldProps} from "./UFTextField.js";
+import {UFText} from "@ultraforce/ts-general-lib/dist/tools/UFText.js";
 
 // endregion
 

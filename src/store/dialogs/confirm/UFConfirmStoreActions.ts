@@ -1,12 +1,12 @@
 // region imports
 
 import * as React from "react";
-import {UFRedux} from "@ultraforce/ts-react-lib/dist/tools/UFRedux";
+import {UFRedux} from "@ultraforce/ts-react-lib/dist/tools/UFRedux.js";
 import {ThunkAction} from "redux-thunk";
 import {Action} from "redux";
-import {UFConfirmActionType} from "./UFConfirmActionType";
-import {UFConfirmState} from "./UFConfirmState";
-import {UFButtonColorType} from "../../../types/UFButtonColorType";
+import {UFConfirmActionType} from "./UFConfirmActionType.js";
+import {UFConfirmState} from "./UFConfirmState.js";
+import {UFButtonColorType} from "../../../types/UFButtonColorType.js";
 
 // endregion
 

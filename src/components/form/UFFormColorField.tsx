@@ -1,8 +1,8 @@
 // region imports
 
 import * as React from "react";
-import {UFTextFieldProps} from "./UFTextField";
-import {UFFormTextField} from "./UFFormTextField";
+import {UFTextFieldProps} from "./UFTextField.js";
+import {UFFormTextField} from "./UFFormTextField.js";
 import { memo } from "react";
 
 // endregion

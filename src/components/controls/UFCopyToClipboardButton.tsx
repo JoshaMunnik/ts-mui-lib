@@ -4,7 +4,7 @@ import * as React from 'react';
 import {Button, ButtonProps, IconButton, Slide, SlideProps, Snackbar, SnackbarOrigin} from "@mui/material";
 import {memo, useState} from "react";
 import CloseIcon from '@mui/icons-material/Close';
-import {UFSlideUp} from "../transitions/UFSlideUp";
+import {UFSlideUp} from "../transitions/UFSlideUp.js";
 
 // endregion
 

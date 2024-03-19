@@ -3,7 +3,7 @@ import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 import * as React from 'react';
 import Typography from "@mui/material/Typography";
 import { FormControl, InputLabel, Slider, Stack, TextField } from "@mui/material";
-import { UFText } from "@ultraforce/ts-general-lib/dist/tools/UFText";
+import { UFText } from "@ultraforce/ts-general-lib/dist/tools/UFText.js";
 /**
  * {@link UFFormNumberSliderField} shows a slider with an optional input field.
  */

@@ -1,6 +1,5 @@
-import * as React from "react";
-import { UFTextFieldProps } from "./UFTextField";
+import { UFTextFieldProps } from "./UFTextField.js";
 /**
  * {@link UFFormTextField} wraps {@link UFTextField} in a FormControl.
  */
-export declare const UFFormTextField: React.MemoExoticComponent<({ fullWidth, variant, value, sx, ...other }: UFTextFieldProps) => JSX.Element>;
+export declare const UFFormTextField: ({ fullWidth, variant, value, sx, ...other }: UFTextFieldProps) => import("react/jsx-runtime").JSX.Element;

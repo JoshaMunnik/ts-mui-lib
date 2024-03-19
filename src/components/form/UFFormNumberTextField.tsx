@@ -2,13 +2,13 @@
 
 import * as React from 'react'
 import Typography from "@mui/material/Typography";
-import {UFFormTextField} from "./UFFormTextField";
+import {UFFormTextField} from "./UFFormTextField.js";
 import {FormControl, IconButton, Stack} from "@mui/material";
-import {UFFormFieldChangeEvent} from "../../events/UFFormFieldChangeEvent";
+import {UFFormFieldChangeEvent} from "../../events/UFFormFieldChangeEvent.js";
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
-import {UFMath} from "@ultraforce/ts-general-lib/dist/tools/UFMath";
-import {UFTextField, UFTextFieldProps} from "./UFTextField";
+import {UFMath} from "@ultraforce/ts-general-lib/dist/tools/UFMath.js";
+import {UFTextField, UFTextFieldProps} from "./UFTextField.js";
 
 // endregion
 

@@ -1,7 +1,7 @@
 // region imports
 
 import * as React from 'react';
-import {UFFormFieldChangeEvent} from "../../events/UFFormFieldChangeEvent";
+import {UFFormFieldChangeEvent} from "../../events/UFFormFieldChangeEvent.js";
 import {FormControl, InputLabel, Select, SelectProps} from "@mui/material";
 import {memo} from "react";
 

@@ -1,9 +1,9 @@
 import * as React from "react";
 import { ThunkAction } from "redux-thunk";
 import { Action } from "redux";
-import { UFButtonColorType } from "../../../types/UFButtonColorType";
-import { UFInputActionType } from "./UFInputActionType";
-import { UFInputState } from "./UFInputState";
+import { UFButtonColorType } from "../../../types/UFButtonColorType.js";
+import { UFInputActionType } from "./UFInputActionType.js";
+import { UFInputState } from "./UFInputState.js";
 /**
  * All input actions.
  */
@@ -41,8 +41,8 @@ export declare class UFInputStoreActions {
         content: React.ReactNode;
         callback: (value: string | false) => void;
         value: string;
-        ok: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null;
-        cancel: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null;
+        ok: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | null;
+        cancel: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | null;
         allowEmpty: boolean;
         okColor: "success" | "info" | "warning" | "error" | "inherit" | "primary" | "secondary";
         cancelColor: "success" | "info" | "warning" | "error" | "inherit" | "primary" | "secondary";

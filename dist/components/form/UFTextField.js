@@ -31,7 +31,7 @@ export const UFTextField = memo((_a) => {
             inputProps.style.textOverflow = 'ellipsis';
         }
     }
-    return (_jsx(TextField, Object.assign({ InputLabelProps: floatingLabel ? {} : { shrink: true }, inputProps: inputProps, variant: variant, onChange: event => onFieldChange && onFieldChange({
+    return (_jsx(TextField, Object.assign({ InputLabelProps: floatingLabel ? {} : { shrink: true }, inputProps: inputProps, variant: variant, onChange: (event) => onFieldChange && onFieldChange({
             name: name || '',
             type: 'string',
             value: event.target.value

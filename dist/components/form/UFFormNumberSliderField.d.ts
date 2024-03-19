@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { UFTextFieldProps } from "./UFTextField";
+import { UFTextFieldProps } from "./UFTextField.js";
 /**
  * Properties for {@link UFFormNumberSliderField}
  */
@@ -125,5 +125,5 @@ export declare class UFFormNumberSliderField extends React.PureComponent<UFFormN
      *
      * @returns html data
      */
-    render(): JSX.Element;
+    render(): import("react/jsx-runtime").JSX.Element;
 }

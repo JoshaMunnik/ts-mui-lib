@@ -16,8 +16,8 @@ import Typography from "@mui/material/Typography";
 import { FormControl, IconButton, Stack } from "@mui/material";
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
-import { UFMath } from "@ultraforce/ts-general-lib/dist/tools/UFMath";
-import { UFTextField } from "./UFTextField";
+import { UFMath } from "@ultraforce/ts-general-lib/dist/tools/UFMath.js";
+import { UFTextField } from "./UFTextField.js";
 /**
  * {@link UFFormNumberTextField} extends {@link UFTextField} to enter numeric values.
  *

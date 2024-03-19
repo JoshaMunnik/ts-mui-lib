@@ -1,7 +1,7 @@
 // region types
 
 import * as React from "react";
-import {UFButtonColorType} from "../../../types/UFButtonColorType";
+import {UFButtonColorType} from "../../../types/UFButtonColorType.js";
 
 /**
  * The input popup state data

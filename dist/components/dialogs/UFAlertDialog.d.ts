@@ -32,4 +32,4 @@ export interface UFAlertDialogProps {
  * Defines an alert dialog. Which shows a message and a close button. The user has to click the close button, clicking
  * outside or pressing escape will not close the dialog.
  */
-export declare const UFAlertDialog: React.MemoExoticComponent<({ title, content, close, variant, onClose, open }: UFAlertDialogProps) => JSX.Element>;
+export declare const UFAlertDialog: React.MemoExoticComponent<({ title, content, close, variant, onClose, open }: UFAlertDialogProps) => import("react/jsx-runtime").JSX.Element>;

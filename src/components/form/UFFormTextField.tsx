@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import {FormControl} from "@mui/material";
-import {UFTextField, UFTextFieldProps} from "./UFTextField";
+import {UFTextField, UFTextFieldProps} from "./UFTextField.js";
 import {memo} from "react";
 
 // endregion
@@ -12,7 +12,7 @@ import {memo} from "react";
 /**
  * {@link UFFormTextField} wraps {@link UFTextField} in a FormControl.
  */
-export const UFFormTextField = memo(
+export const UFFormTextField =
   (
     {
       fullWidth = true,
@@ -28,6 +28,6 @@ export const UFFormTextField = memo(
         value={value || ''}
       />
     </FormControl>
-);
+;
 
 // endregion

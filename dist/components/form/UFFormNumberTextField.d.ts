@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { UFTextFieldProps } from "./UFTextField";
+import { UFTextFieldProps } from "./UFTextField.js";
 /**
  * Properties for {@link UFFormNumberTextField}
  */
@@ -124,5 +124,5 @@ export declare class UFFormNumberTextField extends React.PureComponent<UFFormNum
      *
      * @returns html data
      */
-    render(): JSX.Element;
+    render(): import("react/jsx-runtime").JSX.Element;
 }

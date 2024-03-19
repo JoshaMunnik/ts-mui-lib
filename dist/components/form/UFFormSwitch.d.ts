@@ -1,5 +1,5 @@
 import * as React from "react";
-import { UFFormFieldChangeEvent } from "../../events/UFFormFieldChangeEvent";
+import { UFFormFieldChangeEvent } from "../../events/UFFormFieldChangeEvent.js";
 import { SwitchProps } from "@mui/material";
 /**
  * Properties for {@link UFFormSwitch}
@@ -36,4 +36,4 @@ export interface UFFormSwitchProps extends SwitchProps {
 /**
  * {@link UFFormSwitch} combines `FormControlLabel` and `Switch` into a single component.
  */
-export declare const UFFormSwitch: React.MemoExoticComponent<({ name, checked, onFieldChange, label, topLabel, disabled }: UFFormSwitchProps) => JSX.Element>;
+export declare const UFFormSwitch: React.MemoExoticComponent<({ name, checked, onFieldChange, label, topLabel, disabled }: UFFormSwitchProps) => import("react/jsx-runtime").JSX.Element>;

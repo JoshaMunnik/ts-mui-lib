@@ -24,7 +24,7 @@ import * as React from 'react';
 import { Button, IconButton, Snackbar } from "@mui/material";
 import { memo, useState } from "react";
 import CloseIcon from '@mui/icons-material/Close';
-import { UFSlideUp } from "../transitions/UFSlideUp";
+import { UFSlideUp } from "../transitions/UFSlideUp.js";
 /**
  * A button to copy a text to the clipboard and show a snackbar when it is finished.
  */

@@ -3,10 +3,10 @@
 import * as React from "react";
 import {ThunkAction} from "redux-thunk";
 import {Action} from "redux";
-import {UFAlertState} from "./UFAlertState";
-import {UFButtonColorType} from "../../../types/UFButtonColorType";
-import {UFAlertActionType} from "./UFAlertActionType";
-import {UFRedux} from "@ultraforce/ts-react-lib/dist/tools/UFRedux";
+import {UFAlertState} from "./UFAlertState.js";
+import {UFButtonColorType} from "../../../types/UFButtonColorType.js";
+import {UFAlertActionType} from "./UFAlertActionType.js";
+import {UFRedux} from "@ultraforce/ts-react-lib/dist/tools/UFRedux.js";
 
 // endregion
 

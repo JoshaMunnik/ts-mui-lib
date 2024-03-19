@@ -2,8 +2,8 @@
 
 import * as React from 'react';
 import {Button, Dialog, DialogContent, DialogContentText, DialogTitle} from "@mui/material";
-import {UFFormTextField} from "../form/UFFormTextField";
-import {UFStyledDialogActions} from "./UFStyledDialogActions";
+import {UFFormTextField} from "../form/UFFormTextField.js";
+import {UFStyledDialogActions} from "./UFStyledDialogActions.js";
 import {memo, useState} from "react";
 import CloseIcon from '@mui/icons-material/Close';
 import CheckIcon from '@mui/icons-material/Check';

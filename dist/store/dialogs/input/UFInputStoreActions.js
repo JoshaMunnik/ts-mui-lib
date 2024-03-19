@@ -1,6 +1,6 @@
 // region imports
-import { UFInputActionType } from "./UFInputActionType";
-import { UFRedux } from "@ultraforce/ts-react-lib/dist/tools/UFRedux";
+import { UFInputActionType } from "./UFInputActionType.js";
+import { UFRedux } from "@ultraforce/ts-react-lib/dist/tools/UFRedux.js";
 // endregion
 // region local
 /**

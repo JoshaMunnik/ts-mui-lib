@@ -1,9 +1,9 @@
 import * as React from "react";
 import { ThunkAction } from "redux-thunk";
 import { Action } from "redux";
-import { UFAlertState } from "./UFAlertState";
-import { UFButtonColorType } from "../../../types/UFButtonColorType";
-import { UFAlertActionType } from "./UFAlertActionType";
+import { UFAlertState } from "./UFAlertState.js";
+import { UFButtonColorType } from "../../../types/UFButtonColorType.js";
+import { UFAlertActionType } from "./UFAlertActionType.js";
 /**
  * All alert store actions.
  */
@@ -31,7 +31,7 @@ export declare class UFAlertStoreActions {
     } & {
         title: React.ReactNode;
         content: React.ReactNode;
-        close: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null;
+        close: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | null;
         closeColor: "success" | "info" | "warning" | "error" | "inherit" | "primary" | "secondary";
         callback: () => void;
     };

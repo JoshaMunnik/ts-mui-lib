@@ -44,5 +44,5 @@ export declare class UFCollapsableAlert extends React.PureComponent<UFCollapsabl
     private startTimer;
     componentWillUnmount(): void;
     componentDidUpdate(prevProps: Readonly<UFCollapsableAlertProps>, prevState: Readonly<{}>, snapshot?: any): void;
-    render(): JSX.Element;
+    render(): import("react/jsx-runtime").JSX.Element;
 }

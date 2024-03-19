@@ -3,8 +3,8 @@
 import * as React from 'react';
 import {Warning} from "@mui/icons-material";
 import {Button, ButtonProps, Dialog, DialogContent, DialogContentText, DialogTitle} from "@mui/material";
-import {UFStyledDialogActions} from "./UFStyledDialogActions";
-import {UFDialogTitleIcon} from "./UFDialogTitleIcon";
+import {UFStyledDialogActions} from "./UFStyledDialogActions.js";
+import {UFDialogTitleIcon} from "./UFDialogTitleIcon.js";
 import CloseIcon from '@mui/icons-material/Close';
 import CheckIcon from '@mui/icons-material/Check';
 import {memo} from "react";

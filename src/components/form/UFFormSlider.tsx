@@ -4,7 +4,7 @@ import * as React from 'react';
 import {memo, useState} from 'react';
 import {FormControl, InputLabel, Slider, SliderProps} from "@mui/material";
 import {Mark} from "@mui/base";
-import {UFFormFieldChangeEvent} from "../../events/UFFormFieldChangeEvent";
+import {UFFormFieldChangeEvent} from "../../events/UFFormFieldChangeEvent.js";
 
 // endregion
 

@@ -1,6 +1,6 @@
 // region import
-import { UFAlertActionType } from "./UFAlertActionType";
-import { UFRedux } from "@ultraforce/ts-react-lib/dist/tools/UFRedux";
+import { UFAlertActionType } from "./UFAlertActionType.js";
+import { UFRedux } from "@ultraforce/ts-react-lib/dist/tools/UFRedux.js";
 // endregion
 // region local variables
 /**

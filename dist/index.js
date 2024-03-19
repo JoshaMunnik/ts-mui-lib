@@ -22,21 +22,21 @@ export * from './components/form/UFTextField';
 // components/transitions
 export * from './components/transitions/UFSlideUp';
 // components/wrappers
-export * from './components/wrappers/UFBusy';
+export * from './components/wrappers/UFBusy.js';
 // events
-export * from './events/UFFormFieldChangeEvent';
+export * from './events/UFFormFieldChangeEvent.js';
 // store/dialogs/alert
-export * from './store/dialogs/alert/UFAlertActionType';
-export * from './store/dialogs/alert/UFAlertState';
-export * from './store/dialogs/alert/UFAlertStoreActions';
+export * from './store/dialogs/alert/UFAlertActionType.js';
+export * from './store/dialogs/alert/UFAlertState.js';
+export * from './store/dialogs/alert/UFAlertStoreActions.js';
 // store/dialogs/confirm
-export * from './store/dialogs/confirm/UFConfirmActionType';
-export * from './store/dialogs/confirm/UFConfirmState';
-export * from './store/dialogs/confirm/UFConfirmStoreActions';
+export * from './store/dialogs/confirm/UFConfirmActionType.js';
+export * from './store/dialogs/confirm/UFConfirmState.js';
+export * from './store/dialogs/confirm/UFConfirmStoreActions.js';
 // store/dialogs/input
-export * from './store/dialogs/input/UFInputActionType';
-export * from './store/dialogs/input/UFInputState';
-export * from './store/dialogs/input/UFInputStoreActions';
+export * from './store/dialogs/input/UFInputActionType.js';
+export * from './store/dialogs/input/UFInputState.js';
+export * from './store/dialogs/input/UFInputStoreActions.js';
 // types
-export * from './types/UFButtonColorType';
+export * from './types/UFButtonColorType.js';
 //# sourceMappingURL=index.js.map

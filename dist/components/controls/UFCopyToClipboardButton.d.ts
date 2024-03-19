@@ -20,4 +20,4 @@ export interface UFCopyToClipboardButtonProps extends ButtonProps {
 /**
  * A button to copy a text to the clipboard and show a snackbar when it is finished.
  */
-export declare const UFCopyBotClipboardButton: React.MemoExoticComponent<({ value, message, anchorOrigin, ...other }: UFCopyToClipboardButtonProps) => JSX.Element>;
+export declare const UFCopyBotClipboardButton: React.MemoExoticComponent<({ value, message, anchorOrigin, ...other }: UFCopyToClipboardButtonProps) => import("react/jsx-runtime").JSX.Element>;

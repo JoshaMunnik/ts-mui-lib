@@ -1,6 +1,6 @@
 // region imports
-import { UFRedux } from "@ultraforce/ts-react-lib/dist/tools/UFRedux";
-import { UFConfirmActionType } from "./UFConfirmActionType";
+import { UFRedux } from "@ultraforce/ts-react-lib/dist/tools/UFRedux.js";
+import { UFConfirmActionType } from "./UFConfirmActionType.js";
 // endregion
 // region local
 /**

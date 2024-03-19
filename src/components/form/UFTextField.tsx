@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import TextField, {TextFieldProps} from "@mui/material/TextField";
-import {UFFormFieldChangeEvent} from "../../events/UFFormFieldChangeEvent";
+import {UFFormFieldChangeEvent} from "../../events/UFFormFieldChangeEvent.js";
 import {memo} from "react";
 
 // endregion
@@ -83,7 +83,7 @@ export const UFTextField = memo(
         InputLabelProps={floatingLabel ? {} : {shrink: true}}
         inputProps={inputProps}
         variant={variant}
-        onChange={event => onFieldChange && onFieldChange({
+        onChange={(event) => onFieldChange && onFieldChange({
           name: name || '',
           type: 'string',
           value: event.target.value

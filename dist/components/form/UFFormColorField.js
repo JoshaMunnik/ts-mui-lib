@@ -10,7 +10,7 @@ var __rest = (this && this.__rest) || function (s, e) {
     return t;
 };
 import { jsx as _jsx } from "react/jsx-runtime";
-import { UFFormTextField } from "./UFFormTextField";
+import { UFFormTextField } from "./UFFormTextField.js";
 import { memo } from "react";
 // endregion
 // region component

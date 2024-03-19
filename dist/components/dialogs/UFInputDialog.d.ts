@@ -46,4 +46,4 @@ export interface UFInputDialogProps {
 /**
  * Shows an input dialog where the user can enter a text.
  */
-export declare const UFInputDialog: React.MemoExoticComponent<({ title, ok, cancel, allowEmpty, onClose, content, value, variant, open }: UFInputDialogProps) => JSX.Element>;
+export declare const UFInputDialog: React.MemoExoticComponent<({ title, ok, cancel, allowEmpty, onClose, content, value, variant, open }: UFInputDialogProps) => import("react/jsx-runtime").JSX.Element>;

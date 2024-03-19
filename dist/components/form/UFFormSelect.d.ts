@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { UFFormFieldChangeEvent } from "../../events/UFFormFieldChangeEvent";
+import { UFFormFieldChangeEvent } from "../../events/UFFormFieldChangeEvent.js";
 import { SelectProps } from "@mui/material";
 /**
  * Properties for {@link UFFormSelect}
@@ -24,4 +24,4 @@ export type UFFormSelectFieldProps = Omit<SelectProps, 'margin'> & {
 /**
  * {@link UFFormSelect} is a wrapper for SelectField. It adds a label, a name and a fullWidth property.
  */
-export declare const UFFormSelect: React.MemoExoticComponent<({ variant, name, label, value, fullWidth, onFieldChange, margin, required, ...other }: UFFormSelectFieldProps) => JSX.Element>;
+export declare const UFFormSelect: React.MemoExoticComponent<({ variant, name, label, value, fullWidth, onFieldChange, margin, required, ...other }: UFFormSelectFieldProps) => import("react/jsx-runtime").JSX.Element>;

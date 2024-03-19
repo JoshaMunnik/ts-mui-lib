@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import {ButtonProps} from "@mui/material";
-import {UFButtonColorType} from "../../../types/UFButtonColorType";
+import {UFButtonColorType} from "../../../types/UFButtonColorType.js";
 
 /**
  * The confirmation popup state data

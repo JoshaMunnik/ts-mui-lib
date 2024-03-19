@@ -49,4 +49,4 @@ export interface UFConfirmDialogProps {
  * called with true) or no (callback is called with false). Clicking outside the dialog will result
  * in a callback with false.
  */
-export declare const UFConfirmDialog: React.MemoExoticComponent<({ title, content, yes, no, variant, onClose, open, yesColor, noColor }: UFConfirmDialogProps) => JSX.Element>;
+export declare const UFConfirmDialog: React.MemoExoticComponent<({ title, content, yes, no, variant, onClose, open, yesColor, noColor }: UFConfirmDialogProps) => import("react/jsx-runtime").JSX.Element>;

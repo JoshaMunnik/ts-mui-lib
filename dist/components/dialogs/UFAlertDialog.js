@@ -1,6 +1,6 @@
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-import { UFStyledDialogActions } from "./UFStyledDialogActions";
-import { UFDialogTitleIcon } from "./UFDialogTitleIcon";
+import { UFStyledDialogActions } from "./UFStyledDialogActions.js";
+import { UFDialogTitleIcon } from "./UFDialogTitleIcon.js";
 import { Button, Dialog, DialogContent, DialogContentText, DialogTitle } from "@mui/material";
 import { Warning } from "@mui/icons-material";
 import CloseIcon from '@mui/icons-material/Close';

@@ -58,7 +58,7 @@ export class UFCollapsableAlert extends React.PureComponent<UFCollapsableAlertPr
    *
    * @type {NodeJS.Timer | null}
    */
-  private m_timerHandle: NodeJS.Timer | null;
+  private m_timerHandle: ReturnType<typeof setInterval> | null;
 
   // endregion
 

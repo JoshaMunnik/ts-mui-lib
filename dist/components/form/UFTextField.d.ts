@@ -1,6 +1,6 @@
 import * as React from "react";
 import { TextFieldProps } from "@mui/material/TextField";
-import { UFFormFieldChangeEvent } from "../../events/UFFormFieldChangeEvent";
+import { UFFormFieldChangeEvent } from "../../events/UFFormFieldChangeEvent.js";
 /**
  * Props for {@link UFTextField}.
  */
@@ -36,4 +36,4 @@ export type UFTextFieldProps = TextFieldProps & {
 /**
  * {@link UFTextField} extends `TextField`.
  */
-export declare const UFTextField: React.MemoExoticComponent<({ floatingLabel, onFieldChange, name, readOnly, ellipsis, variant, fontFamily, fontSize, ...other }: UFTextFieldProps) => JSX.Element>;
+export declare const UFTextField: React.MemoExoticComponent<({ floatingLabel, onFieldChange, name, readOnly, ellipsis, variant, fontFamily, fontSize, ...other }: UFTextFieldProps) => import("react/jsx-runtime").JSX.Element>;

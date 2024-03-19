@@ -11,15 +11,14 @@ var __rest = (this && this.__rest) || function (s, e) {
 };
 import { jsx as _jsx } from "react/jsx-runtime";
 import { FormControl } from "@mui/material";
-import { UFTextField } from "./UFTextField";
-import { memo } from "react";
+import { UFTextField } from "./UFTextField.js";
 // endregion
 // region component
 /**
  * {@link UFFormTextField} wraps {@link UFTextField} in a FormControl.
  */
-export const UFFormTextField = memo((_a) => {
+export const UFFormTextField = (_a) => {
     var { fullWidth = true, variant = 'standard', value, sx = {} } = _a, other = __rest(_a, ["fullWidth", "variant", "value", "sx"]);
     return _jsx(FormControl, Object.assign({ fullWidth: fullWidth, variant: variant, sx: sx }, { children: _jsx(UFTextField, Object.assign({}, other, { value: value || '' })) }));
-});
+};
 //# sourceMappingURL=UFFormTextField.js.map

@@ -1,9 +1,9 @@
 import * as React from "react";
 import { ThunkAction } from "redux-thunk";
 import { Action } from "redux";
-import { UFConfirmActionType } from "./UFConfirmActionType";
-import { UFConfirmState } from "./UFConfirmState";
-import { UFButtonColorType } from "../../../types/UFButtonColorType";
+import { UFConfirmActionType } from "./UFConfirmActionType.js";
+import { UFConfirmState } from "./UFConfirmState.js";
+import { UFButtonColorType } from "../../../types/UFButtonColorType.js";
 /**
  * All confirm actions.
  */
@@ -36,8 +36,8 @@ export declare class UFConfirmStoreActions {
         title: React.ReactNode;
         content: React.ReactNode;
         callback: (choice: boolean) => void;
-        yes: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null;
-        no: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null;
+        yes: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | null;
+        no: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | null;
         yesColor: "success" | "info" | "warning" | "error" | "inherit" | "primary" | "secondary";
         noColor: "success" | "info" | "warning" | "error" | "inherit" | "primary" | "secondary";
     };

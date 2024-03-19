@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SliderProps } from "@mui/material";
-import { UFFormFieldChangeEvent } from "../../events/UFFormFieldChangeEvent";
+import { UFFormFieldChangeEvent } from "../../events/UFFormFieldChangeEvent.js";
 /**
  * Props for {@link UFFormSlider}
  */
@@ -24,4 +24,4 @@ export interface UFFormSliderFieldProps extends SliderProps {
 /**
  * {@link UFFormSlider} wraps a `Slider` in a `FormControl` and adds a `InputLabel` above it.
  */
-export declare const UFFormSlider: React.MemoExoticComponent<({ label, fullWidth, marks, onFieldChange, name, ...other }: UFFormSliderFieldProps) => JSX.Element>;
+export declare const UFFormSlider: React.MemoExoticComponent<({ label, fullWidth, marks, onFieldChange, name, ...other }: UFFormSliderFieldProps) => import("react/jsx-runtime").JSX.Element>;
